@@ -4,8 +4,8 @@
     "main": "index.html",
     "license": "MIT",
     "scripts": {
-        "go": "cd ../server && go run main.go",
-        "c": "tsc ./*.ts --outFile ./build/main.js -w"
+        "server": "cd ../server && go run main.go",
+        "build": "tsc ./*.ts --outFile ./build/main.js -w"
     },
     "dependencies": {
         "dompurify": "^2.3.6"

@@ -5,7 +5,7 @@ const headerContainer = document.createElement("div");
 const ulList = document.createElement("ul");
 const ulOption = document.createElement("ul");
 const options = ["1", "2", "3", "4", "5", "6"];
-const pages = ["Home", "Explore", "Notifications", "Messages", "Bookmarks", "Lists", "Profile", "More"];
+const pages: string[] = ["Home", "Explore", "Notifications", "Messages", "Bookmarks", "Lists", "Profile", "More"];
 
 const main = () => {
     body.appendChild(navList());

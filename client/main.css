@@ -62,8 +62,8 @@ body {
 }
 
 .header-container {
-    display: block;
-    height: 170px;
+    display: fixed;
+    height: 200px;
     width: 40%;
     padding: 1rem;
     border-bottom: 1px solid #2f3136;

@@ -1,0 +1,17 @@
+{
+    "name": "twitter-clone",
+    "version": "1.0.0",
+    "main": "index.html",
+    "license": "MIT",
+    "scripts": {
+        "go": "cd ../server && go run main.go",
+        "c": "tsc ./*.ts --outFile ./build/main.js -w"
+    },
+    "dependencies": {
+        "dompurify": "^2.3.6"
+    },
+    "devDependencies": {
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.4"
+    }
+}

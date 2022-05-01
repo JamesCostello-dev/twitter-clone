@@ -9,7 +9,7 @@ const pages: string[] = ["Home", "Explore", "Notifications", "Messages", "Bookma
 
 const main = () => {
     body.appendChild(navList());
-    body.appendChild(headerBox());
+    body.appendChild(headerGroup());
 };
 
 const navList = () => {
@@ -27,7 +27,7 @@ const navList = () => {
     return navContainer;
 };
 
-const headerBox = () => {
+const headerGroup = () => {
     let header = document.createElement("header");
     let avatar = document.createElement("img");
     let textArea = document.createElement("textarea");
@@ -51,5 +51,7 @@ const headerBox = () => {
 
     return headerContainer;
 };
+
+const displayFeed = () => {};
 
 main();

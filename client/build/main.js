@@ -8,7 +8,7 @@ var options = ["1", "2", "3", "4", "5", "6"];
 var pages = ["Home", "Explore", "Notifications", "Messages", "Bookmarks", "Lists", "Profile", "More"];
 var main = function () {
     body.appendChild(navList());
-    body.appendChild(headerBox());
+    body.appendChild(headerGroup());
 };
 var navList = function () {
     var li = document.createElement("li");
@@ -21,7 +21,7 @@ var navList = function () {
     navContainer.classList.add("nav-container");
     return navContainer;
 };
-var headerBox = function () {
+var headerGroup = function () {
     var header = document.createElement("header");
     var avatar = document.createElement("img");
     var textArea = document.createElement("textarea");
@@ -42,4 +42,5 @@ var headerBox = function () {
     headerContainer.classList.add("header-container");
     return headerContainer;
 };
+var displayFeed = function () { };
 main();

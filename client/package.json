@@ -4,7 +4,7 @@
     "main": "index.html",
     "license": "MIT",
     "scripts": {
-        "server": "cd ../server && go run main.go",
+        "server": "cd ../server && go run .",
         "build": "tsc ./*.ts --outFile ./build/main.js -w"
     },
     "dependencies": {

@@ -1,0 +1,50 @@
+Info 0    [20:51:49.386] Starting TS Server
+Info 1    [20:51:49.388] Version: 4.6.4
+Info 2    [20:51:49.388] Arguments: /usr/local/bin/node /usr/local/lib/node_modules/typescript/lib/tsserver.js --logFile /Users/jco/github/twitter-clone/client/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/hw/d6dqk30j7flfv0dbhb1pc09w0000gn/T/bf21919483f1dd12a80a5becd5297886/tscancellation*
+Info 3    [20:51:49.388] Platform: darwin NodeVersion: 16 CaseSensitive: false
+Info 4    [20:51:49.388] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [20:51:49.401] Format host information updated
+Info 6    [20:51:49.407] Search path: /Users/jco/github/twitter-clone/client
+Info 7    [20:51:49.408] For info: /Users/jco/github/twitter-clone/client/main.ts :: Config file name: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 8    [20:51:49.408] Creating configuration project /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 9    [20:51:49.430] Config: /Users/jco/github/twitter-clone/client/tsconfig.json : {
+ "rootNames": [
+  "/Users/jco/github/twitter-clone/client/main.ts"
+ ],
+ "options": {
+  "target": 2,
+  "module": 1,
+  "strict": true,
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "forceConsistentCasingInFileNames": true,
+  "configFilePath": "/Users/jco/github/twitter-clone/client/tsconfig.json"
+ }
+}
+Info 10   [20:51:49.436] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 11   [20:51:49.895] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 458.49482300132513ms
+Info 12   [20:51:49.895] Project '/Users/jco/github/twitter-clone/client/tsconfig.json' (Configured)
+Info 13   [20:51:49.895] 	Files (17)
+
+Info 14   [20:51:49.895] -----------------------------------------------
+Info 15   [20:51:49.948] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-8195.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 16   [20:51:49.949] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/.log/ti-8195.log
+Info 17   [20:51:49.949] Elapsed:: 0.387253001332283ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-8195.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 18   [20:51:49.949] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-8195.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 19   [20:51:49.949] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/.log/ti-8195.log
+Info 20   [20:51:49.949] Elapsed:: 0.05963600054383278ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-8195.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 21   [20:51:49.949] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-8195.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 22   [20:51:49.949] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/.log/ti-8195.log
+Info 23   [20:51:49.949] Elapsed:: 0.05731600150465965ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-8195.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 24   [20:51:50.582] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-8195.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 25   [20:51:50.582] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/.log/ti-8195.log
+Info 26   [20:51:50.582] Elapsed:: 0.10909100249409676ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-8195.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 27   [20:52:52.887] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 28   [20:52:52.899] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 12.042573999613523ms
+Info 29   [20:52:52.899] Different program with same set of files
+Info 30   [20:52:53.968] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 31   [20:52:53.968] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected ignored path: /users/jco/github/twitter-clone/client/.#main.ts
+Info 32   [20:52:53.969] Elapsed:: 0.31567199900746346ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 33   [20:52:54.457] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 34   [20:52:54.457] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected ignored path: /users/jco/github/twitter-clone/client/.#main.ts
+Info 35   [20:52:54.457] Elapsed:: 0.212848000228405ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory

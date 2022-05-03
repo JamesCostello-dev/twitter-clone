@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gofiber/fiber/v2"
-	"twitter-clone/server/db"
+	database "twitter-clone/server/db"
 
+	"github.com/gofiber/fiber/v2"
 )
 
 func main() {

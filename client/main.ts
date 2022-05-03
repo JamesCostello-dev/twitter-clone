@@ -1,4 +1,4 @@
-const body = document.querySelector("body");
+const body: any = document.querySelector("body");
 const navContainer = document.createElement("div");
 const btnContainer = document.createElement("div");
 const headerContainer = document.createElement("div");
@@ -11,6 +11,7 @@ const main = () => {
     body.appendChild(navList());
     body.appendChild(headerGroup());
 };
+
 
 const navList = () => {
     let li = document.createElement("li");
@@ -33,7 +34,6 @@ const headerGroup = () => {
     let textArea = document.createElement("textarea");
     let li = document.createElement("li");
     let btn = document.createElement("button");
-    let key = ulList.querySelectorAll("a");
 
     header.textContent = "Twitter";
     avatar.setAttribute("src", "./assets/WFUyrT8v_400x400.jpeg");
@@ -51,7 +51,5 @@ const headerGroup = () => {
 
     return headerContainer;
 };
-
-const displayFeed = () => {};
 
 main();

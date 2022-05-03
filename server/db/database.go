@@ -43,6 +43,12 @@ func Connect() {
 		log.Fatal(err)
 	}
 	fmt.Printf("\ntimeline found: %v\n", timeline)
+
+	time, err := timelineByID(1)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("\nTimeline found: %v\n", time)
 }
 
 func timelineByUser(name string) ([]Timeline, error) {
@@ -64,4 +70,15 @@ func timelineByUser(name string) ([]Timeline, error) {
 		return nil, fmt.Errorf("timelineByUser %q: %v", name, err)
 	}
 	return timeline, nil
+}
+
+func timelineByID(id int64) (Timeline, error) {
+	var time Timeline
+	row := db.QueryRow("SELECT * FROM timeline WHERE id = ?", id)
+	if err := row.Scan(&time.ID, &time.Username, &time.Content); err != nil {
+		if err == sql.ErrNoRows {
+			return time, fmt.Errorf("timelineById %d: %v", id, err)
+		}
+	}
+	return time, nil
 }

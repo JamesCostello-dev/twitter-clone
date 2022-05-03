@@ -12,7 +12,6 @@ const main = () => {
     body.appendChild(headerGroup());
 };
 
-
 const navList = () => {
     let li = document.createElement("li");
     let btn = document.createElement("button");

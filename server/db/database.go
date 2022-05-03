@@ -49,6 +49,17 @@ func Connect() {
 		log.Fatal(err)
 	}
 	fmt.Printf("\nTimeline found: %v\n", time)
+
+	timeID, err := addTimeline(Timeline{
+		Username: "UserSix",
+		Content:  "this is some new content",
+	})
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Printf("\nID of added album: %v\n", timeID)
+
 }
 
 func timelineByUser(name string) ([]Timeline, error) {
@@ -81,4 +92,16 @@ func timelineByID(id int64) (Timeline, error) {
 		}
 	}
 	return time, nil
+}
+
+func addTimeline(time Timeline) (int64, error) {
+	result, err := db.Exec("INSERT INTO timeline (username, content) VALUES (?, ?)", time.Username, time.Content)
+	if err != nil {
+		return 0, fmt.Errorf("addTimeline: %v", err)
+	}
+	id, err := result.LastInsertId()
+	if err != nil {
+		return 0, fmt.Errorf("addTimeline:, %v", err)
+	}
+	return id, nil
 }

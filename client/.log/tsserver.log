@@ -1,13 +1,13 @@
-Info 0    [10:51:32.193] Starting TS Server
-Info 1    [10:51:32.195] Version: 4.6.4
-Info 2    [10:51:32.195] Arguments: /usr/local/bin/node /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js --logFile /Users/jco/github/twitter-clone/client/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/hw/d6dqk30j7flfv0dbhb1pc09w0000gn/T/0ffe433e69dedcb190db672a95e070b9/tscancellation*
-Info 3    [10:51:32.195] Platform: darwin NodeVersion: 16 CaseSensitive: false
-Info 4    [10:51:32.195] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [10:51:32.211] Format host information updated
-Info 6    [10:51:32.705] Search path: /Users/jco/github/twitter-clone/client
-Info 7    [10:51:32.706] For info: /Users/jco/github/twitter-clone/client/main.ts :: Config file name: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 8    [10:51:32.706] Creating configuration project /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 9    [10:51:32.728] Config: /Users/jco/github/twitter-clone/client/tsconfig.json : {
+Info 0    [16:11:16.837] Starting TS Server
+Info 1    [16:11:16.842] Version: 4.6.4
+Info 2    [16:11:16.842] Arguments: /usr/local/bin/node /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js --logFile /Users/jco/github/twitter-clone/client/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/hw/d6dqk30j7flfv0dbhb1pc09w0000gn/T/7a8bc993554b53d12eebefd36178f2ba/tscancellation*
+Info 3    [16:11:16.842] Platform: darwin NodeVersion: 16 CaseSensitive: false
+Info 4    [16:11:16.842] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [16:11:16.858] Format host information updated
+Info 6    [16:11:17.098] Search path: /Users/jco/github/twitter-clone/client
+Info 7    [16:11:17.098] For info: /Users/jco/github/twitter-clone/client/main.ts :: Config file name: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 8    [16:11:17.099] Creating configuration project /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 9    [16:11:17.121] Config: /Users/jco/github/twitter-clone/client/tsconfig.json : {
  "rootNames": [
   "/Users/jco/github/twitter-clone/client/main.ts"
  ],
@@ -21,98 +21,221 @@ Info 9    [10:51:32.728] Config: /Users/jco/github/twitter-clone/client/tsconfig
   "configFilePath": "/Users/jco/github/twitter-clone/client/tsconfig.json"
  }
 }
-Info 10   [10:51:32.733] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 11   [10:51:33.209] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 476.26365599036217ms
-Info 12   [10:51:33.209] Project '/Users/jco/github/twitter-clone/client/tsconfig.json' (Configured)
-Info 13   [10:51:33.209] 	Files (17)
+Info 10   [16:11:17.127] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 11   [16:11:17.652] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 525.3135339915752ms
+Info 12   [16:11:17.652] Project '/Users/jco/github/twitter-clone/client/tsconfig.json' (Configured)
+Info 13   [16:11:17.653] 	Files (17)
 
-Info 14   [10:51:33.210] -----------------------------------------------
-Info 15   [10:51:33.393] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-16220.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
-Info 16   [10:51:33.393] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/.log/ti-16220.log
-Info 17   [10:51:33.393] Elapsed:: 0.3581729978322983ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-16220.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
-Info 18   [10:51:43.989] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
-Info 19   [10:51:43.990] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected ignored path: /users/jco/github/twitter-clone/client/.#main.ts
-Info 20   [10:51:43.990] Elapsed:: 0.7782550007104874ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
-Info 21   [10:51:44.350] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 22   [10:51:44.364] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 13.776051998138428ms
-Info 23   [10:51:44.364] Different program with same set of files
-Info 24   [10:51:44.576] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 25   [10:51:44.583] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 6.680986002087593ms
-Info 26   [10:51:44.583] Different program with same set of files
-Info 27   [10:51:44.585] getCompletionData: Get current token: 0.02316400408744812
-Info 28   [10:51:44.585] getCompletionData: Is inside comment: 0.039027005434036255
-Info 29   [10:51:44.585] getCompletionData: Get previous token: 0.04624399542808533
-Info 30   [10:51:44.586] getCompletionsAtPosition: isCompletionListBlocker: 0.3954330086708069
-Info 31   [10:51:44.595] getExportInfoMap: cache miss or empty; calculating new results
-Info 32   [10:51:44.595] getExportInfoMap: done in 4.610071003437042 ms
-Info 33   [10:51:44.596] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
-Info 34   [10:51:44.596] collectAutoImports: response is complete
-Info 35   [10:51:44.596] collectAutoImports: 0.17028599977493286
-Info 36   [10:51:44.596] getCompletionData: Semantic work: 10.15132899582386
-Info 37   [10:51:44.621] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24.23285199701786
-Info 38   [10:51:45.127] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 39   [10:51:45.136] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 8.475851997733116ms
-Info 40   [10:51:45.136] Different program with same set of files
-Info 41   [10:51:45.421] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 42   [10:51:45.427] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 6.685253992676735ms
-Info 43   [10:51:45.427] Different program with same set of files
-Info 44   [10:51:47.899] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 45   [10:51:47.906] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 7.114316999912262ms
-Info 46   [10:51:47.906] Different program with same set of files
-Info 47   [10:51:48.422] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 48   [10:51:48.427] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 4.941523998975754ms
-Info 49   [10:51:48.427] Different program with same set of files
-Info 50   [10:51:48.907] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 51   [10:51:48.913] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 6.041584998369217ms
-Info 52   [10:51:48.913] Different program with same set of files
-Info 53   [10:51:49.766] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
-Info 54   [10:51:49.766] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected ignored path: /users/jco/github/twitter-clone/client/.#main.ts
-Info 55   [10:51:49.767] Elapsed:: 0.23979200422763824ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
-Info 56   [10:57:23.307] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 57   [10:57:23.323] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 9 structureChanged: true structureIsReused:: Not Elapsed: 15.929782003164291ms
-Info 58   [10:57:23.323] Project '/Users/jco/github/twitter-clone/client/tsconfig.json' (Configured)
-Info 59   [10:57:23.324] 	Files (16)
+Info 14   [16:11:17.653] -----------------------------------------------
+Info 15   [16:11:17.694] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-28623.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 16   [16:11:17.694] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/.log/ti-28623.log
+Info 17   [16:11:17.694] Elapsed:: 0.4015509933233261ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-28623.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 18   [16:11:17.694] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-28623.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 19   [16:11:17.694] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/.log/ti-28623.log
+Info 20   [16:11:17.694] Elapsed:: 0.06389099359512329ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-28623.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 21   [16:11:17.694] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-28623.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 22   [16:11:17.694] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/.log/ti-28623.log
+Info 23   [16:11:17.694] Elapsed:: 0.0630670040845871ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-28623.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 24   [16:11:17.695] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-28623.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 25   [16:11:17.695] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/.log/ti-28623.log
+Info 26   [16:11:17.695] Elapsed:: 0.05490399897098541ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-28623.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 27   [16:11:18.389] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-28623.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 28   [16:11:18.389] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/.log/ti-28623.log
+Info 29   [16:11:18.389] Elapsed:: 0.09435199201107025ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.log/ti-28623.log :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 30   [16:13:03.873] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 31   [16:13:03.873] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected ignored path: /users/jco/github/twitter-clone/client/.#main.ts
+Info 32   [16:13:03.873] Elapsed:: 0.26611799001693726ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 33   [16:13:05.788] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 34   [16:13:05.788] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected ignored path: /users/jco/github/twitter-clone/client/.#main.ts
+Info 35   [16:13:05.788] Elapsed:: 0.20904099941253662ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 36   [16:13:39.810] Search path: /Users/jco/github/twitter-clone/client
+Info 37   [16:13:39.810] For info: /Users/jco/github/twitter-clone/client/main.ts :: Config file name: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 38   [16:14:51.270] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 39   [16:14:51.282] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 12.369340002536774ms
+Info 40   [16:14:51.282] Different program with same set of files
+Info 41   [16:14:51.376] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 42   [16:14:51.376] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected ignored path: /users/jco/github/twitter-clone/client/.#main.ts
+Info 43   [16:14:51.376] Elapsed:: 0.35378000140190125ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Err 44    [16:14:51.611] Exception on executing command {"command":"getCodeFixes","seq":70,"type":"request","arguments":{"file":"/Users/jco/github/twitter-clone/client/main.ts","startLine":4,"startOffset":41,"endLine":4,"endOffset":41,"errorCodes":[2339,2348]}}:
 
-Info 60   [10:57:23.324] -----------------------------------------------
-Info 61   [10:57:23.440] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
-Info 62   [10:57:23.440] Elapsed:: 0.351625993847847ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
-Info 63   [10:57:23.441] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/main.js :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
-Info 64   [10:57:23.441] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected file add/remove of non supported extension: /users/jco/github/twitter-clone/client/main.js
-Info 65   [10:57:23.441] Elapsed:: 0.1285180002450943ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/main.js :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
-Info 66   [10:57:23.529] Search path: /Users/jco/github/twitter-clone/client
-Info 67   [10:57:23.529] For info: /Users/jco/github/twitter-clone/client/main.js :: Config file name: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 68   [10:57:23.531] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
-Info 69   [10:57:23.532] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 10 structureChanged: true structureIsReused:: Not Elapsed: 0.9638790041208267ms
-Info 70   [10:57:23.532] Project '/Users/jco/github/twitter-clone/client/tsconfig.json' (Configured)
-Info 71   [10:57:23.532] 	Files (0)
+    BADCLIENT: Bad error code, 2339 not found in range 194..194 (found: false, 2348); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
 
-Info 72   [10:57:23.532] -----------------------------------------------
-Info 73   [10:57:23.536] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 74   [10:57:23.850] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 313.2968410104513ms
-Info 75   [10:57:23.850] Project '/dev/null/inferredProject1*' (Inferred)
-Info 76   [10:57:23.850] 	Files (19)
+    Error: BADCLIENT: Bad error code, 2339 not found in range 194..194 (found: false, 2348); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
+        at Object.cast (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:1500:25)
+        at addMissingNewOperator (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151912:27)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151903:96
+        at Function.ChangeTracker.with (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:145717:17)
+        at Object.getCodeActions (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151903:64)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:146962:77
+        at Object.flatMap (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getFixes (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:146962:23)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:162189:35
+        at Object.flatMap (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getCodeFixesAtPosition (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:162187:23)
+        at IOSession.Session.getCodeFixes (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:173754:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:172387:61)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174067:88
+        at IOSession.Session.executeWithRequestId (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174058:28)
+        at IOSession.Session.executeCommand (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174067:33)
+        at IOSession.Session.onMessage (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174093:35)
+        at Interface.<anonymous> (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:176698:31)
+        at Interface.emit (node:events:520:28)
+        at Interface._onLine (node:readline:487:10)
+        at Interface._normalWrite (node:readline:661:12)
+        at Socket.ondata (node:readline:269:10)
+        at Socket.emit (node:events:520:28)
+        at addChunk (node:internal/streams/readable:315:12)
+        at readableAddChunk (node:internal/streams/readable:289:9)
+        at Socket.Readable.push (node:internal/streams/readable:228:10)
+        at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+Info 45   [16:14:53.454] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 46   [16:14:53.464] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 9.227725997567177ms
+Info 47   [16:14:53.464] Different program with same set of files
+Err 48    [16:14:53.770] Exception on executing command {"command":"getCodeFixes","seq":79,"type":"request","arguments":{"file":"/Users/jco/github/twitter-clone/client/main.ts","startLine":4,"startOffset":42,"endLine":4,"endOffset":42,"errorCodes":[2339,2348]}}:
 
-Info 77   [10:57:23.850] -----------------------------------------------
-Info 78   [10:57:23.853] AutoImportProviderProject: found 1 root files in 1 dependencies in 2.666913002729416 ms
-Info 79   [10:57:23.854] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 80   [10:57:23.901] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 47.12994700670242ms
-Info 81   [10:57:23.901] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 82   [10:57:23.901] 	Files (1)
+    BADCLIENT: Bad error code, 2339 not found in range 195..195 (found: false, 2348); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
 
-Info 83   [10:57:23.901] -----------------------------------------------
-Info 84   [10:57:24.236] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 85   [10:57:24.469] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 233.05830399692059ms
-Info 86   [10:57:24.469] Project '/dev/null/inferredProject1*' (Inferred)
-Info 87   [10:57:24.469] 	Files (29)
+    Error: BADCLIENT: Bad error code, 2339 not found in range 195..195 (found: false, 2348); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
+        at Object.cast (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:1500:25)
+        at addMissingNewOperator (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151912:27)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151903:96
+        at Function.ChangeTracker.with (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:145717:17)
+        at Object.getCodeActions (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151903:64)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:146962:77
+        at Object.flatMap (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getFixes (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:146962:23)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:162189:35
+        at Object.flatMap (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getCodeFixesAtPosition (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:162187:23)
+        at IOSession.Session.getCodeFixes (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:173754:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:172387:61)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174067:88
+        at IOSession.Session.executeWithRequestId (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174058:28)
+        at IOSession.Session.executeCommand (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174067:33)
+        at IOSession.Session.onMessage (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174093:35)
+        at Interface.<anonymous> (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:176698:31)
+        at Interface.emit (node:events:520:28)
+        at Interface._onLine (node:readline:487:10)
+        at Interface._normalWrite (node:readline:661:12)
+        at Socket.ondata (node:readline:269:10)
+        at Socket.emit (node:events:520:28)
+        at addChunk (node:internal/streams/readable:315:12)
+        at readableAddChunk (node:internal/streams/readable:289:9)
+        at Socket.Readable.push (node:internal/streams/readable:228:10)
+        at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+Err 49    [16:14:56.306] Exception on executing command {"command":"getCodeFixes","seq":82,"type":"request","arguments":{"file":"/Users/jco/github/twitter-clone/client/main.ts","startLine":4,"startOffset":42,"endLine":4,"endOffset":42,"errorCodes":[2339,2348]}}:
 
-Info 88   [10:57:24.469] -----------------------------------------------
-Info 89   [10:57:24.469] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 90   [10:57:24.469] 	Files (1)
+    BADCLIENT: Bad error code, 2339 not found in range 195..195 (found: false, 2348); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
 
-Info 91   [10:57:24.469] -----------------------------------------------
-Info 92   [10:57:26.486] Before ensureProjectForOpenFiles:
-Info 93   [10:57:26.487] After ensureProjectForOpenFiles:
-Info 94   [10:57:26.487] got projects updated in background, updating diagnostics for /Users/jco/github/twitter-clone/client/main.js
-Info 95   [10:57:35.502] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 96   [10:57:35.510] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 8.509721994400024ms
-Info 97   [10:57:35.511] Different program with same set of files
+    Error: BADCLIENT: Bad error code, 2339 not found in range 195..195 (found: false, 2348); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
+        at Object.cast (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:1500:25)
+        at addMissingNewOperator (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151912:27)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151903:96
+        at Function.ChangeTracker.with (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:145717:17)
+        at Object.getCodeActions (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151903:64)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:146962:77
+        at Object.flatMap (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getFixes (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:146962:23)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:162189:35
+        at Object.flatMap (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getCodeFixesAtPosition (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:162187:23)
+        at IOSession.Session.getCodeFixes (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:173754:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:172387:61)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174067:88
+        at IOSession.Session.executeWithRequestId (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174058:28)
+        at IOSession.Session.executeCommand (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174067:33)
+        at IOSession.Session.onMessage (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174093:35)
+        at Interface.<anonymous> (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:176698:31)
+        at Interface.emit (node:events:520:28)
+        at Interface._onLine (node:readline:487:10)
+        at Interface._normalWrite (node:readline:661:12)
+        at Socket.ondata (node:readline:269:10)
+        at Socket.emit (node:events:520:28)
+        at addChunk (node:internal/streams/readable:315:12)
+        at readableAddChunk (node:internal/streams/readable:289:9)
+        at Socket.Readable.push (node:internal/streams/readable:228:10)
+        at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+Info 50   [16:14:56.892] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 51   [16:14:56.898] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 6.001682996749878ms
+Info 52   [16:14:56.898] Different program with same set of files
+Err 53    [16:14:57.207] Exception on executing command {"command":"getCodeFixes","seq":88,"type":"request","arguments":{"file":"/Users/jco/github/twitter-clone/client/main.ts","startLine":4,"startOffset":41,"endLine":4,"endOffset":41,"errorCodes":[2339,2348]}}:
+
+    BADCLIENT: Bad error code, 2339 not found in range 194..194 (found: false, 2348); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
+
+    Error: BADCLIENT: Bad error code, 2339 not found in range 194..194 (found: false, 2348); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
+        at Object.cast (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:1500:25)
+        at addMissingNewOperator (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151912:27)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151903:96
+        at Function.ChangeTracker.with (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:145717:17)
+        at Object.getCodeActions (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:151903:64)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:146962:77
+        at Object.flatMap (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getFixes (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:146962:23)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:162189:35
+        at Object.flatMap (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getCodeFixesAtPosition (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:162187:23)
+        at IOSession.Session.getCodeFixes (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:173754:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:172387:61)
+        at /Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174067:88
+        at IOSession.Session.executeWithRequestId (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174058:28)
+        at IOSession.Session.executeCommand (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174067:33)
+        at IOSession.Session.onMessage (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:174093:35)
+        at Interface.<anonymous> (/Users/jco/github/twitter-clone/client/node_modules/typescript/lib/tsserver.js:176698:31)
+        at Interface.emit (node:events:520:28)
+        at Interface._onLine (node:readline:487:10)
+        at Interface._normalWrite (node:readline:661:12)
+        at Socket.ondata (node:readline:269:10)
+        at Socket.emit (node:events:520:28)
+        at addChunk (node:internal/streams/readable:315:12)
+        at readableAddChunk (node:internal/streams/readable:289:9)
+        at Socket.Readable.push (node:internal/streams/readable:228:10)
+        at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+Info 54   [16:14:57.757] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 55   [16:14:57.757] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected ignored path: /users/jco/github/twitter-clone/client/.#main.ts
+Info 56   [16:14:57.757] Elapsed:: 0.3025130033493042ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 57   [16:14:57.947] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 58   [16:14:57.954] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 6.784404009580612ms
+Info 59   [16:14:57.954] Different program with same set of files
+Info 60   [16:15:00.572] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 61   [16:15:00.572] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected ignored path: /users/jco/github/twitter-clone/client/.#main.ts
+Info 62   [16:15:00.572] Elapsed:: 0.25396600365638733ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 63   [16:15:00.573] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 64   [16:15:00.578] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 5.270861998200417ms
+Info 65   [16:15:00.578] Different program with same set of files
+Info 66   [16:15:00.579] getCompletionData: Get current token: 0.018144994974136353
+Info 67   [16:15:00.579] getCompletionData: Is inside comment: 0.007642999291419983
+Info 68   [16:15:00.579] getCompletionData: Get previous token: 0.047537997364997864
+Info 69   [16:15:00.580] getCompletionsAtPosition: isCompletionListBlocker: 0.2644529938697815
+Info 70   [16:15:00.585] getCompletionData: Semantic work: 4.645341992378235
+Info 71   [16:15:00.587] getCompletionData: Get current token: 0.013244003057479858
+Info 72   [16:15:00.587] getCompletionData: Is inside comment: 0.00506100058555603
+Info 73   [16:15:00.587] getCompletionData: Get previous token: 0.036146000027656555
+Info 74   [16:15:00.587] getCompletionsAtPosition: isCompletionListBlocker: 0.0032130032777786255
+Info 75   [16:15:00.589] getCompletionData: Semantic work: 1.1574600040912628
+Info 76   [16:15:00.590] getCompletionData: Get current token: 0.012318000197410583
+Info 77   [16:15:00.590] getCompletionData: Is inside comment: 0.023284003138542175
+Info 78   [16:15:00.590] getCompletionData: Get previous token: 0.026242002844810486
+Info 79   [16:15:00.590] getCompletionsAtPosition: isCompletionListBlocker: 0.002731993794441223
+Info 80   [16:15:00.591] getCompletionData: Semantic work: 0.6092489957809448
+Info 81   [16:15:00.592] getCompletionData: Get current token: 0.010536998510360718
+Info 82   [16:15:00.592] getCompletionData: Is inside comment: 0.004500001668930054
+Info 83   [16:15:00.592] getCompletionData: Get previous token: 0.024489998817443848
+Info 84   [16:15:00.592] getCompletionsAtPosition: isCompletionListBlocker: 0.0022909939289093018
+Info 85   [16:15:00.593] getCompletionData: Semantic work: 0.5243780016899109
+Info 86   [16:15:02.547] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 87   [16:15:02.553] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 6.3493189960718155ms
+Info 88   [16:15:02.553] Different program with same set of files
+Info 89   [16:15:04.969] DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 90   [16:15:04.969] Project: /Users/jco/github/twitter-clone/client/tsconfig.json Detected ignored path: /users/jco/github/twitter-clone/client/.#main.ts
+Info 91   [16:15:04.969] Elapsed:: 0.31140799820423126ms DirectoryWatcher:: Triggered with /users/jco/github/twitter-clone/client/.#main.ts :: WatchInfo: /users/jco/github/twitter-clone/client 1 undefined Config: /Users/jco/github/twitter-clone/client/tsconfig.json WatchType: Wild card directory
+Info 92   [16:16:14.828] Starting updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json
+Info 93   [16:16:14.836] Finishing updateGraphWorker: Project: /Users/jco/github/twitter-clone/client/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 7.828764006495476ms
+Info 94   [16:16:14.836] Different program with same set of files
